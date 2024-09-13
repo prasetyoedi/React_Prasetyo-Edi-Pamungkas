@@ -1,4 +1,4 @@
-Summary Materi KMReact – Version Control and Branch Management (Git)
+**Summary Materi KMReact – Version Control and Branch Management (Git)**
 
 Git adalah sistem version control terdistribusi yang dirancang untuk melacak dan mengelola perubahan pada source code selama proses pengembangan perangkat lunak. Git digunakan banyak developer untuk bekerja secara paralel pada satu proyek tanpa saling mengganggu, dengan kemampuan untuk menyimpan versi lengkap dari setiap perubahan yang dilakukan. Setiap perubahan dapat diidentifikasi, dilacak, dan dipulihkan jika diperlukan, sehingga memudahkan koordinasi tim dalam proyek skala kecil hingga besar.
 
