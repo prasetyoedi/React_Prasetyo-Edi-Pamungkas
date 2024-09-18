@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Create Product</title>
+</head>
+
+<body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+    <form action="">
+        <label for="productName">Product Name:</label><br>
+        <input type="text" id="productName" name="productName" required minlength="6" maxlength="50">
+        <p>Product Category: </p>
+        <select required>
+            <option value="option1"></option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <p>Product Freshness: </p>
+        <input type="radio" id="brandNew" name="condition" value="brandNew" required>
+        <label for="brandNew">Brand New</label><br>
+        <input type="radio" id="secondHank" name="condition" value="secondHank" required>
+        <label for="secondHank">Second Hank</label><br>
+        <input type="radio" id="refurbished" name="condition" value="refurbished" required>
+        <label for="refurbished">Refurbished</label> <br><br>
+        <label for="myfile">Image product:</label>
+        <input type="file" id="myfile" name="myfile" required>
+        <p>Additional Description:</p>
+        <textarea cols="35" rows="10" required></textarea>
+        <p>Additional Description:</p>
+        <input type="number" placeholder="$100" required> <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
