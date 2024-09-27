@@ -39,7 +39,6 @@ nav .nav-link {
 
 p {
     color: #212529;
-    text-align: center;
     font-family: Roboto;
     font-size: 19px;
     font-style: normal;
@@ -48,7 +47,12 @@ p {
     margin-top: 5px;
 }
 
-.form .title {
+.detailProduct {
+    padding-left: 166px;
+    padding-right: 166px;
+}
+
+.detailProduct .title {
     margin-top: 64px;
     color: #212529;
     font-family: Roboto;
@@ -56,5 +60,44 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: 28.8px;
-    /* 125.217% */
+    text-align: left;
+}
+
+.detailProduct p {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .detailProduct {
+        padding-left: 20px;
+    }
+
+    .detailProduct .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .logo {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .detailProduct {
+        padding-left: 10px;
+    }
 }
