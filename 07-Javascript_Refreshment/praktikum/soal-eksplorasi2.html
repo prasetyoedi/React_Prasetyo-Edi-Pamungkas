@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal Eksplorasi 2</title>
+</head>
+
+<body>
+    <div id="quote" style="font-size: 1.5em; margin: 20px;"></div>
+
+    <button onclick="getQuote()" style="padding: 10px 20px; font-size: 1em;">Get Random Quote</button>
+
+    <script>
+        // Array berisi kutipan untuk simulasi API
+        const quotes = [
+            'Batasan satu-satunya untuk esok adalah keraguan kita hari ini.',
+            'Tujuan hidup kita adalah untuk bahagia.',
+            'Hidup adalah apa yang terjadi saat kita sibuk membuat rencana lain.',
+            'Kebahagiaan bukanlah sesuatu yang siap pakai. Itu berasal dari tindakan kita sendiri.',
+            'Jangan takut akan perubahan, takutlah jika tidak pernah berubah.'
+        ];
+
+        // Fungsi untuk mensimulasikan panggilan API
+        function fetchQuotesFromAPI() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve(quotes);
+                }, 2000);
+            });
+        }
+
+        // Fungsi untuk mendapatkan kutipan acak
+        async function getQuote() {
+            try {
+                document.getElementById('quote').textContent = "Loading...";
+                const quotesFromAPI = await fetchQuotesFromAPI();
+                const randomIndex = Math.floor(Math.random() * quotesFromAPI.length);
+                const randomQuote = quotesFromAPI[randomIndex];
+                document.getElementById('quote').textContent = randomQuote;
+            } catch (error) {
+                console.error("Error fetching quote:", error);
+                document.getElementById('quote').textContent = "Failed to fetch quote. Please try again.";
+            }
+        }
+    </script>
+</body>
+
+</html>
