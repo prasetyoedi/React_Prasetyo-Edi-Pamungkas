@@ -2,7 +2,7 @@
 
 ## Pengertian Router React
 
-Router React adalah pustaka yang memungkinkan pengembang untuk menavigasi antar berbagai halaman atau komponen dalam aplikasi React tanpa harus memuat ulang seluruh halaman. Router ini berfungsi untuk mengatur URL dan menampilkan konten yang relevan sesuai dengan URL yang diakses. Terdapat dua jenis aplikasi web yang sering dibahas dalam konteks routing: **Single Page Application (SPA)** dan **Multi Page Application (MPA)**. SPA memuat satu halaman HTML yang secara dinamis memperbarui kontennya tanpa memuat ulang halaman, sementara MPA memuat halaman baru dari server untuk setiap navigasi.
+Router React adalah library yang digunakan untuk menavigasi antar berbagai halaman atau komponen dalam aplikasi React tanpa harus memuat ulang seluruh halaman. Router ini berfungsi untuk mengatur URL dan menampilkan konten yang relevan sesuai dengan URL yang diakses. Terdapat dua jenis aplikasi web yang sering dibahas dalam konteks routing: **Single Page Application (SPA)** dan **Multi Page Application (MPA)**. SPA memuat satu halaman HTML yang secara dinamis memperbarui kontennya tanpa memuat ulang halaman, sementara MPA memuat halaman baru dari server untuk setiap navigasi.
 
 ## Keunggulan SPA dan MPA
 
@@ -10,7 +10,7 @@ Router React adalah pustaka yang memungkinkan pengembang untuk menavigasi antar 
 
 ## URL Parameter dan Hook Routing
 
-**URL parameter** adalah bagian dari URL yang memungkinkan kita untuk mengirimkan informasi tambahan kepada aplikasi, seperti ID atau kategori, yang dapat digunakan untuk mengambil data tertentu. Dalam React Router, kita dapat menggunakan berbagai hook routing seperti `useHistory`, `useLocation`, `useParams`, dan `useRouteMatch`.
+**URL parameter** adalah bagian dari URL yang digunakan untuk mengirimkan informasi tambahan kepada aplikasi, seperti ID atau kategori, yang dapat digunakan untuk mengambil data tertentu. Dalam React Router, kita dapat menggunakan berbagai hook routing seperti `useHistory`, `useLocation`, `useParams`, dan `useRouteMatch`.
 
 - **`useHistory`** memungkinkan kita untuk mengelola riwayat navigasi.
 - **`useLocation`** memberikan informasi tentang lokasi saat ini, termasuk state yang mungkin dikirimkan.
