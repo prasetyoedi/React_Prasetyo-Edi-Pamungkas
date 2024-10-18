@@ -14,7 +14,7 @@
 
 .background {
     position: relative;
-    background-image: url('../img/welcome1.jpg');
+    background-image: url('https://raw.githubusercontent.com/prasetyoedi/React_Prasetyo-Edi-Pamungkas/refs/heads/master/codeCompetance1/project/img/welcome1.jpg?token=GHSAT0AAAAAACV5D7GBNKT3X6GHKZKJLSRMZYQUM7A');
     background-size: cover;
     background-position: center;
     height: 93vh;
