@@ -275,7 +275,7 @@ export default function CreateProduct() {
                                                 </button>
                                             </td>
                                             <td>
-                                                <button className="btn btn-warning" onClick={() => handleEdit(product)}>
+                                                <button className="btn btn-warning" onClick={() => handleRowClick(product)}>
                                                     Show
                                                 </button>
                                             </td>
