@@ -11,3 +11,5 @@ Deploy aplikasi React khususnya melibatkan proses _build_ dan pengunggahan hasil
 ## Vercel
 
 **Vercel** adalah platform yang sangat populer di kalangan pengembang untuk deployment aplikasi frontend, termasuk React. Platform ini menawarkan proses deployment yang mudah dan cepat, integrasi dengan GitHub, serta kemampuan untuk melakukan _automatic deployment_ setiap kali kode diperbarui. Mendeploy aplikasi React dengan Vercel hanya memerlukan beberapa langkah: setelah menyiapkan aplikasi dan menghubungkannya ke Vercel, proses deploy dapat dilakukan secara otomatis setelah setiap commit atau perubahan. Keuntungan deployment ini mencakup kecepatan akses yang optimal, keamanan, skalabilitas, dan dukungan CDN sehingga aplikasi dapat diakses dengan cepat dari berbagai wilayah.
+
+[Link Deployment](https://deploy-edi.vercel.app/)
