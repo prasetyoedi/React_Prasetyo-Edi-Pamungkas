@@ -1,0 +1,56 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.emoji-chatbot {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.emoji-chatbot h1 {
+    color: #ffcc00;
+}
+
+.emoji-chatbot input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #555;
+    font-size: 1em;
+    background-color: #4e4e4e;
+    color: #e0e0e0;
+}
+
+.emoji-chatbot button {
+    background-color: #ff9933;
+    color: #1e1e1e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.emoji-chatbot button:hover {
+    background-color: #ffcc00;
+}
+
+.emoji-response {
+    background-color: #3a3a3a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+.error {
+    color: #ff4c4c;
+    font-weight: bold;
+}
