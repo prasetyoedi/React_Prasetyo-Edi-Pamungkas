@@ -1,0 +1,22 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+header,
+footer {
+  background-color: #1f1f1f;
+}
+
+a {
+  color: #81c784;
+}
+
+a:hover {
+  color: #a5d6a7;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
